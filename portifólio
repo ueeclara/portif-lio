@@ -1,0 +1,915 @@
+<!DOCTYPE htmL>
+
+<html>
+
+    <head>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+        
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+        
+
+
+        <title>Portifolio</title>
+
+
+        <style>
+
+           
+            h1{
+
+
+                position: absolute;
+                width: 179px;
+                height: 33px;
+                left: 78px;
+                top: 30px;
+                font-family: 'Roboto';
+                font-style: italic;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 33px;
+                color: #F5F5F5;
+                
+           
+            }
+            h2{
+
+
+                position: absolute;
+                width: 162px;
+                height: 23px;
+                left: 154px;
+                top: 320px;
+
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+
+                color: #E3E3E3;
+
+                
+            }
+            hr{
+                
+                Width: 1440px;
+                position: absolute;
+                width: 1440px;
+                height: 0px;
+                left: 0px;
+                top: 90px;
+                position: center;
+
+                border: 1px solid #434343;
+
+
+            }
+           
+            
+            body{
+
+
+                font-family: 'Roboto', sans-serif;
+                background-color:  #111111;
+
+
+            }
+            p{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 103px;
+                top: 374px;
+                font-family: 'Roboto', 'sans-serif';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .card{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 85px;
+                top: 204px;
+                background: #191B1D;
+                
+                
+            }
+            
+            .backimg{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/2688/054f/d24701348942a8338dea7ccaf9eb22a9?Expires=1662940800&Signature=bWrnn4iBBahJ9vY2~vTeYZ7zdtbp8gDWrcWl-~S8fAFZeXyVev9GTgDF~deNVnJm0WKcbLaMaIpuP5c7Y3Z7zX7RUGb3dulX-7bXZJKSecGaLPF1oGXQt6vEyncSUel4SWNRJbV3PBaaklqmnwTkaZ-9weyleug0v8KE9bT~VY7e0Brvcqy9v-nmKmhIrXJV~Ox2v6E-NGO8tycsW72OV~34mFbD0GQnG71nHFdjsqIGQ0WpMlV4i80W~u7MWFi80Ux8RVS9M33~DvtxvHIrgeq8Afyrbl~E1QPUrvG9cM9kWEFHPQOfIMQsxxnn7LxBV63efpms9qpx-y7PDMZ9Gg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-position: center center ;
+                background-size: 100%;
+
+
+            }
+           
+            .mar{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                
+            }
+            .botao{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 133px;
+                top: 463px;
+                background-color:#5C0D78;
+                cursor: pointer;
+
+
+            }
+            .text{
+
+
+                position: absolute;
+                width: 89px;
+                height: 26px;
+                left: 38px;
+                top: 12px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+
+
+
+                color: #FFFFFF
+
+
+            }
+            
+            .card2{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 420px;
+                top: 204px;
+
+                background: #191B1D;
+
+
+
+            }
+            .backimg2{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/ffa0/3113/e0ddc205b1431d1a984ec0a9d952d514?Expires=1662940800&Signature=H21zd6Cc8FOJkKKiaQnNBz51h2W2sLZWRGMKNUCuX5N370neJE6hSLwdvqB-zMMnTsKX1RhQ9~ZoLutN5yl1kNGQARLRm9RffA5u9SfyonQcdLfDzDwvhPDCk6GZIcyX8RCNgXvG6bEtgJD53lkMW2980RKVpQAE8mTOZ7-mZkCCpo2O1P8~UHvb8dXfd~bX4T9Sp-VbpHDa10pWqRLi69eVjx5fL3C3t9pKIadtOP1Lj1VJQdBLBdwmFwex08DCJC8POsLJauRmt28IrUaAS-S1839-wr72QavlGKMCV5V0NtFMGXIp0kox9R2jtoy252NGfc9DRpbY~cw1Tbydyg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h3{
+
+                
+                position: absolute;
+                width: 54px;
+                height: 23px;
+                left: 523px;
+                top: 320px;
+                font-family: 'Roboto', 'sans-serif';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p2{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 438px;
+                top: 384px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao2{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 468px;
+                top: 463px;
+                background: #5C0D78;
+                cursor: pointer;
+
+
+            }
+            
+            .card3{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 755px;
+                top: 204px;
+                
+                background: #191B1D
+
+
+            }
+            .backimg3{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/e540/6cb0/68afb73f4bab6ee37200999b2ceec0f5?Expires=1662940800&Signature=QsjWbOXbNSthVDZqOSAMslbTNM8RSAuqYEf-diT2vk5X0MRpEoSvnfg8HK7EhsU79prjvBakq1Y0CBrnwervwv2sZ3X8LDJNS~NVjanCxBOrYcDpXsiNVnuZdeWzsk9N4KVInPR1ihM1qAK5QWdYTrv6Qx2wUFJshmbEs8COKA9Fdb6qIUEfFvSlupt-FxMdnee~atBFGCZsCAjkr0hmeOOUO9TFCx2-g43TAFpqoXjwXkY8XGYjAtbZqNsDvqF5bt~7BzU1X~16BxMKDJem9C~m2rNUACrG83ZYN1QbpBqiSz7MSqlnbqJMRDjSuwSVXNWMJ0z~INQa~vFxHJoxAA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h4{
+
+
+                position: absolute;
+                width: 83px;
+                height: 23px;
+                left: 844px;
+                top: 320px;
+                font-family: 'Roboto', 'sans-serif';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p3{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 774px;
+                top: 384px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao3{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 803px;
+                top: 463px;
+                background: #5C0D78;
+                cursor: pointer;
+
+
+            }
+            .card4{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 1090px;
+                top: 204px;
+                background: #191B1D;
+
+
+            }
+            .backimg4{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/4ce2/0b09/8b5dab9e6d40c47ec0f7421626756758?Expires=1662940800&Signature=XRwEl6fbs~EqaoJxgoqRAEKuWfg7s423W9PaPqmCz7fxRRPPzUuLHtGqmwY-6-pJPhSZIOIfwLG8-jJOPzPHMN6oys8ijtV9MszBKnUNn-lDcCvvQiAzihQFPCTaHWikCr4Y4-p~sk0H60b2Vyl5duuvOQCyaUKWWD9qiQfjhjjPuyFL31nZ5R-80vB9vzgd68q0DRSglnfTA2rH8DTKFNk7ve5TiOnLNWi3VVqbxrvYkpQmMmLjXiN04q0FlfhPqWzfImE1-R4gor~6G3K4OKvrNlrw-fzFmjjXDYesrMU9hwlaAoKI9EpnHNrrC~bKwo1VsYPmQtj-lS7Iv56W9g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+                
+            }
+
+            h5{
+                position: absolute;
+                width: 124px;
+                height: 23px;
+                left: 1159px;
+                top: 320px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+            }
+            p4{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 1109px;
+                top: 384px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao4{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 1138px;
+                top: 463px;
+                background: #5C0D78;
+
+
+            }
+            .card5{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 85px;
+                top: 604px;
+                background: #191B1D;
+
+
+            }
+            .backimg5{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/d0d9/1069/d8dc336a664cc8a188aad46983d8aa97?Expires=1662940800&Signature=QnRoNLpGdRQpj1-sECWFXxcbTzz8hGoIEGBRTe~ZVGgxg8SyrdSz6JqEPPtE5rN5zStjerUZRROIJVhZEzc69Qif1b65YObJ9ozz8Lp1v3anQR2eAUCBqmKaKGJ429vIC6O06hXfALYPZlIzYhzHdrCjBnPZVGEmikyHfg9NypzKCKZL61bTiMTdr31y0UoUo4K4VAmtfM-1oDjYQNIU6Y3GNSWpU7iNYiXiivFzGD4YIudkJJZTVzlaKD6VYS1mYMU8E7LmSl2v2tgvqr-IdgY-SLXrgmyncvWKbISEqHCqBzVMec7OIJIN1xvmBVoSHLID7YtFBSmwpF7t3OwS0A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h6{
+
+
+                position: absolute;
+                width: 165px;
+                height: 23px;
+                left: 133px;
+                top: 690px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p5{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 103px;
+                top: 784px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao5{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 133px;
+                top: 863px;
+
+                background: #5C0D78;
+
+
+            }
+            .card6{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 420px;
+                top: 604px;
+
+                background: #191B1D;
+
+
+            }
+            .backimg6{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/adc5/b04c/58b80b346befb1241894195a76afcc38?Expires=1662940800&Signature=crdrhPz8YH0ZxL6GSLSf40aHGp9XXpvwIns~gATLMmYzIUUOGSQ7beA4-Jh4yyLFSabkI4HhjDD4rGBVMAmzcmGkRPzBJtIhJ-P16zEZL4rC1Gcm7rIJ9lJFmvnJEnGmn3aNVl2q4r4QtNEq6J6w-cwyzD1HOn9Ywj9S41mTT0RpQvC9H~uskl2pupMo3dJRdwEKgGGBF7Mc3jku0lGdVVaWeDUbHxip0Lv5~EnsEnN-DmKg7KiCz3-lcG2cfJ2KljRhuhfxlBoThbshoGbciN~Umaq0jZgyHiwZOw2WVtm~GKTOa540rzsotRMFHBcK4~yuyRiIKySXbZ-dxQmP5Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h7{
+
+
+                position: absolute;
+                width: 174px;
+                height: 23px;
+                left: 471px;
+                top: 738px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p6{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 438px;
+                top: 784px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao6{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 468px;
+                top: 863px;
+                background: #5C0D78;
+
+
+            }
+            .card7{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 755px;
+                top: 604px;
+
+                background: #191B1D;
+
+
+            }
+            .backimg7{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/35f4/9289/2c35debe9c1ccdb961cd0835ecab805f?Expires=1662940800&Signature=NZ5mG4mCu6vD67bXJtjFHztUJnOXQN9eH7Dzfo23v9VRthV4bdsdz74Kjel8cvZadMkCq~7qFd5Udvn-FJS77R0n2K0czssSWsMBtrseCnmUqJVeTxnz7ewmKhuIlC8Tx-ToIgAZzUWlJbU0PGQgRsXFv4M1JkdhnYzc72mFRsuGWaAOJq-odYgnXAPoi86~pKUPokVOK5blFIBUW0dQWzUvo3s23t9XGG1VJLT44dSRwsvrx8QMpQbiOFKIXF25QQt7mfiNYE1KKN-MTAsO0vfcDL2bGUVkQt6ypTjTHmOWBzzl8YZhiJzvh0pPUXcxzAvkd9QuIwJ~-RBlX3cklg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h8{
+
+
+                position: absolute;
+                width: 94px;
+                height: 23px;
+                left: 839px;
+                top: 738px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p7{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 774px;
+                top: 784px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+
+                color: #E3E3E3;
+
+
+            }
+            .botao7{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 803px;
+                top: 863px;
+                background: #5C0D78;
+
+
+            }
+            .card8{
+
+
+                position: absolute;
+                width: 261px;
+                height: 333px;
+                left: 1090px;
+                top: 604px;
+
+                background: #191B1D;
+
+
+            }
+            .backimg8{
+
+
+                position: absolute;
+                width: 261px;
+                height: 123px;
+                background: url(https://s3-alpha-sig.figma.com/img/a95b/91a8/dc1bff47a61057fce20c47e3e9ad226d?Expires=1662940800&Signature=ZOUUezhFSY5V5x-XJQY5IoSujG8P1UUfKIOwabiL2MIb64HdVELqL4Yy4QbLolrMZ8Gq1bEvXUzGPq4VgQ2fr3yHM5W0aHHeNbxaBoKFe6xjrjMGXTSR6YFodiXpmRxDI3HmGb5DwyZaz9VsYtxkjWJHY2zEcUs-ZU8l8q2i4SQidlt~a1lVQqzn3qabges9ipP1nnLnArqG9OHhPL5-IwXqJLXyxBcmoo~aVYnNhvu8Hq9MvicdBUcwPeBMBqu47pMS3sTTND0pqyfKgWq68l-H0qb0ZSV8zPTCBOWlHyhuAFB5FCHe-5ChgCmaDUtzOtu5wN79L1k4~P~hZmTv7A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                background-size: 100%;
+
+
+            }
+
+            h9{
+
+
+                position: absolute;
+                width: 87px;
+                height: 23px;
+                left: 1177px;
+                top: 738px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #E3E3E3;
+
+
+            }
+            p8{
+
+
+                position: absolute;
+                width: 224px;
+                height: 20px;
+                left: 1109px;
+                top: 784px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #E3E3E3;
+
+
+            }
+            .botao8{
+
+
+                position: absolute;
+                width: 165px;
+                height: 49px;
+                left: 1138px;
+                top: 863px;
+                background: #5C0D78;
+
+            }
+        
+
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <h1> Meus Projetos </h1>
+
+        <hr>
+
+        <div>
+
+            <div class="card">
+
+                <img class="backimg">
+            
+            </div>
+
+
+            <div>
+
+                <h2>Lading page</h2>
+
+                <p>Landing page para site de criação de gráficos</p>
+
+            </div>
+
+            <div class="botao">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="card2">
+
+                <img class ="backimg2">
+
+            </div>
+           
+            <div>
+
+                <h3>Codar</h3>
+
+                <p2>Empresa que desenvolve sites</p2>
+
+            </div>
+
+
+            <div class="botao2">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div>
+            <div class="card3">
+
+                <img class ="backimg3">
+
+            </div>
+           
+            <div>
+
+                <h4>Contador</h4>
+
+                <p3>Contador de dias, horas, minutos e segundos</p3>
+
+            </div>
+
+
+            <div class="botao3">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div>
+
+            <div class="card4">
+
+                <img class ="backimg4">
+
+            </div>
+           
+            <div>
+                <h5>Shop Website</h5>
+
+                <p4>Site de loja de roupas e sapatos</p4>
+
+            </div>
+
+
+            <div class="botao4">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+
+
+        <div>
+
+            <div class="card5">
+
+                <img class ="backimg5">
+
+            </div>
+           
+            <div>
+
+                <h6>Fone landing page</h6>
+
+                <p5>Página para compra de um fone de ouvido</p5>
+
+            </div>
+
+
+            <div class="botao5">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+        
+        <div>
+
+            <div class="card6">
+
+                <img class ="backimg6">
+
+            </div>
+           
+
+            <div>
+
+                <h7>Music Library Page</h7>
+
+                <p6>Página de biblioteca de músicas</p6>
+
+            </div>
+
+
+            <div class="botao6">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div>
+
+            <div class="card7">
+
+                <img class ="backimg7">
+
+            </div>
+           
+
+
+            <div>
+
+                <h8>Pomodoro</h8>
+
+                <p7>Cronômetro pomodoro para gerenciamento de tempo</p7>
+
+            </div>
+
+
+            <div class="botao7">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div>
+
+
+            <div class="card8">
+
+                <img class ="backimg8">
+
+            </div>
+           
+
+            <div>
+
+                <h9>WiseGoat</h9>
+
+                <p8>Site gerador de conselhos e imagens de bodes</p8>
+
+            </div>
+
+
+            <div class="botao8">
+
+                <div><p1 class="text">ver detalhes</p1></div>
+
+            </div>
+
+
+
+        </div>
+        
+        
+    </body>
+    
+</html>
